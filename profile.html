@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <title>Feeder</title>
+    <link rel="icon" href="img/feeder.png">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- JS // JQUERY-->
+    <script>if (typeof module === 'object') {window.module = module; module = undefined;}</script>
+    <script type="application/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+    <script type="application/javascript" src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    <script>if (window.module) module = window.module;</script>
+    <script src="js/quote.js"></script>
+
+    <!-- CSS -->
+    <link href="http://fonts.googleapis.com/css?family=Open+Sans:300,600,700" rel="stylesheet" type="text/css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="css/style.css?<?php echo time(); ?>">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+
+  </head>
+
+  <div class="icon-bar">
+    <a href="index.html"><i class="fa fa-home"></i></a>
+    <a href="rssconfig.html"><i class="fa fa-list"></i></a>
+    <a class="active"><i class="fa fa-user"></i></a>
+    <a href="settings.html"><i class="fa fa-gear"></i></a>
+  </div>
+
+  <body>
+
+  <!-- Trigger the modal with a button -->
+    <div class="content-pane">
+      <a href="#" data-toggle="modal" data-target="#name">Change name</a>
+    </div>
+     <!-- Modal -->
+    <div id="name" class="modal fade" role="dialog">
+      <div class="modal-dialog">
+
+        <!-- Modal content-->
+        <div class="modal-content">
+          <div class="modal-header">
+            <button type="button" class="close" data-dismiss="modal">&times;</button>
+            <h4 class="modal-title">Change Name</h4>
+          </div>
+          <div class="modal-body">
+            <form>
+              <div class="form-group">
+                <input type="text" class="form-control" id="link" placeholder="RSS Feed Link...">
+              </div>
+              </div>
+              <button type="button" onclick="submitstuff()" class="btn btn-default">Submit</button>
+            </form>
+          </div>
+          <div class="modal-footer">
+            <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </body>
+</html>

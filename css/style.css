@@ -1,0 +1,54 @@
+html *:not(i) {
+    font-family: 'Open Sans' !important;
+    width: auto;
+    bottom: 50;
+}
+
+#header { padding-left: 60px; }
+#header img { padding: 10px; }
+#header .text { display: inline-block;}
+
+#quote-text { padding-left: 40px; }
+#giphy-main { padding-left: 40px; }
+
+.rss-metatitle { font-size: 20pt; }
+.rss-title { font-size: 14pt; padding-left: 20px;}
+.rss-description { padding-left: 40px; }
+
+.content-pane {
+  padding-left: 80px;
+}
+
+.split {
+  width: 95%;
+  border: none;
+  height: 1px;
+  color: #d3d3d3;
+  background-color: #d3d3d3;
+}
+
+.icon-bar {
+    width: 50px; /* Set a specific width */
+    background-color: #555; /* Dark-grey background */
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    height: 100%;
+}
+
+.icon-bar a {
+    display: block; /* Make the links appear below each other instead of side-by-side */
+    text-align: center; /* Center-align text */
+    padding: 15px; /* Add some padding */
+    transition: all 0.3s ease; /* Add transition for hover effects */
+    color: white; /* White text color */
+    font-size: 20px; /* Increased font-size */
+}
+
+.icon-bar a:hover {
+    background-color: #000; /* Add a hover color */
+}
+
+.active {
+    background-color: #FA981D; /* Add an active/current color */
+}

@@ -1,0 +1,14 @@
+Alestle
+http://www.alestlelive.com/search/?q=&t=article&l=25&d=&d1=&d2=&s=start_time&sd=desc&c[]=news*&f=rss
+
+Weather
+http://www.rssweather.com/zipcode/62260/rss.php
+
+Game Deals
+https://www.reddit.com/r/GameDeals/.rss
+
+O Human Star
+http://ohumanstar.com/feed/
+
+Youtube
+https://www.youtube.com/feeds/videos.xml?user=pewdiepie
